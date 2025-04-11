@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brother's_Restaurant\Reservations</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #name1{
+            margin-left: 550px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="mainName">
+            <img src="Images/images.png" alt=""><h1 id="name1">Reserve Your Table</h1>
+        </div>
+    <div>
+        <div class="nav">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="gallary.html">Gallary</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="reservationMain">
+        <section class="form">
+            <form action="reservation.js">
+                <table>
+                    <tr>
+                        <th><label for="name">Full Name: </label></th>
+                        <td><input type="text" id="name" placeholder="Enter Name" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">Email: </label></th>
+                        <td><input type="email" id="email" placeholder="Enter Email" pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="phone">Phone No.: </label></th>
+                        <td><input type="tel" name="phone" id="phone" placeholder="Enter Phone no." pattern="[6-9][0-9]{9}" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="guests">Number of Guests: </label></th>
+                        <td><input type="number" min="1" name="guests" id="guests" placeholder="Enter/Select no." required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="date">Date: </label></th>
+                        <td><input type="date" id="date" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="time">Time: </label></th>
+                        <td><input type="time" id="time" placeholder="hrs:mins" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="">Seating Preference: </label></th>
+                        <td>
+                            <select name="" id="">
+                                <option value="">No Preference</option>
+                                <option value="">Indoor</option>
+                                <option value="">Outdoor</option>
+                                <option value="">Roof Side</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="">Occasion: </label></th>
+                        <td>
+                            <select name="" id="">
+                                <option value="">None</option>
+                                <option value="">Birthday</option>
+                                <option value="">Anniversary</option>
+                                <option value="">Business Meeting</option>
+                                <option value="">Freshers</option>
+                                <option value="">Farewell</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="requests">Special Requests:</label></th>
+                        <td> <textarea id="requests" name="requests" rows="4" cols="38" placeholder="Any special requests?"></textarea></td>
+                    </tr>
+                </table>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="reservefoot">
+        <footer>
+            <p>&copy; 2025 Brother's Restaurant. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

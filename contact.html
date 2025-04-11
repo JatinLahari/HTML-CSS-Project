@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brother's_Restaurant\contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #name1{
+            margin-left: 580px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="mainName">
+            <img src="Images/images.png" alt=""><h1 id="name1">Contact Us</h1>
+        </div>
+        <div class="ctn">
+            <div class="nav">
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html" target="_self">About</a></li>
+                        <li><a href="menu.html" target="_self">Menu</a></li>
+                        <li><a href="specials.html" target="_self">Specials</a></li>
+                        <li><a href="reservations.html" target="_self">Reservations</a></li>
+                        <li><a href="gallary.html" target="_self">Gallary</a></li>
+                        <li><a href="videos.html" target="_self">Videos</a></li>
+                        <li><a href="blog.html" target="_self">Blog</a></li>
+                        <li><a href="contact.html" target="_self">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="contact-info">
+                <h2>Our Location</h2>
+                <p>56 Chappan Dukan, Indore, India</p>
+                <h2>Contact Details</h2>
+                <p>Phone: +91 8817608889</p>
+                <p>Email: info@brothers_restaurant.com</p>
+            </section>
+
+            <section class="contact-form">
+                <h2>Get in Touch</h2>
+                <form action="contact.js" method="post">
+                    <table>
+                        <tr>
+                            <th><label for="name">Name:</label></th>
+                            <td><input type="text" id="name" name="name" placeholder="Enter Name" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">Email:</label></th>
+                            <td><input type="email" pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.+\-]+\.[a-zA-Z]{2,}$" id="email" name="email" placeholder="Enter Email" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="phone">Phone Number:</label></th>
+                            <td><input type="tel" id="phone" name="phone" placeholder="Enter Phone no." required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="message">Message:</label></th>
+                            <td><textarea id="message" name="message" rows="4" cols="25" placeholder="Enter Message here" required></textarea></td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="sendmsg">Send Message</button>
+                </form>
+            </section>
+        </main>
+        <div id="contactfoot">
+            <footer>
+                <p>&copy; 2025 Brother's Restaurant. All rights reserved.</p>
+            </footer>
+        </div>
+</body>
+</html>
