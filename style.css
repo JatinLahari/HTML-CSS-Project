@@ -330,3 +330,11 @@ button[type="submit"]:hover {
 .special-section h1{
     text-align: center;
 }
+#specialfoot {
+  text-align: center;
+  margin-top: 650px;
+  padding-top: 5px;
+  height: 45px;
+  color: antiquewhite;
+  background-color: #222;
+}
