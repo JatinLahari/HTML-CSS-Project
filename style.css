@@ -324,3 +324,9 @@ button[type="submit"]:hover {
   color: antiquewhite;
   background-color: #222;
 }
+
+
+      /* SPECIALS CSS  */
+.special-section h1{
+    text-align: center;
+}
