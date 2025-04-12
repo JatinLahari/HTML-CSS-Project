@@ -338,3 +338,9 @@ button[type="submit"]:hover {
   color: antiquewhite;
   background-color: #222;
 }
+
+    /* BLOG CSS  */
+.b-head{
+  color: white;
+  text-align: center;
+}    
