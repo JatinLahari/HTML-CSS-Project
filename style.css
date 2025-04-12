@@ -341,6 +341,54 @@ button[type="submit"]:hover {
 
     /* BLOG CSS  */
 .b-head{
-  color: white;
+  color: #222;
   text-align: center;
+  background-color: rgb(224, 255, 255,0.3);
 }    
+.blog-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.blog-post img{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.blog-post{
+  width: 300px;
+  height: 500px;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  background-color: rgb(235, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.blog-post:hover{
+  box-shadow: 0px 0px 4px 4px lightcyan;
+
+}
+.ptag{
+  margin-top: 13%;
+}
+.read-more{
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  /* background-color: #222; */
+  text-decoration: none;
+  background: #d92323;
+}
+.read-more:hover{
+  background: #b71c1c;
+  text-decoration: underline;
+}
+#blogfoot{
+  text-align: center;
+  margin-top: 150px;
+  padding-top: 5px;
+  height: 45px;
+  color: antiquewhite;
+  background-color: #222;
+}
