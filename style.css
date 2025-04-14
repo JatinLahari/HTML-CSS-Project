@@ -46,9 +46,9 @@ body {
   font-weight: bold;
 }
 /* .navbar li:last-child{
-    margin-right: 20px;
-} */
-.navbar li a {
+  margin-right: 20px;
+  } */
+  .navbar li a {
   color: rgb(7, 7, 7);
   text-decoration: none;
 }
@@ -417,17 +417,47 @@ button[type="submit"]:hover {
 }
 .video-container{
   text-align: center;
-  padding: 20px 20px;
+  padding: 10px 20px;
 }
-.videos{
-  display: grid;  
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-  max-width: 980px;
-  margin: auto;
+.videos > .recipes{
+  border: 1px solid white;
+  text-align: center;
+  display: inline;
+  float: left;
+  width: fit-content; 
+  margin-left: 95px;
+  margin-bottom: 45px;
+  background-color: rgb(235, 255, 255, 0.7);
+  color: #b71c1c
 }
-
-
+.recipes > video{
+  width: 500px;
+  height: 280px;
+}
+.recipes:hover{
+  animation: recipe 1s infinite;
+}
+@keyframes recipe{
+  0%{ box-shadow: 0px 0px 1px 1px lightcyan;}
+  10%{ box-shadow: 0px 0px 2px 2px lightcyan;}
+  20%{ box-shadow: 0px 0px 2px 2px lightcyan;}
+  30%{ box-shadow: 0px 0px 3px 3px lightcyan;}
+  40%{ box-shadow: 0px 0px 3px 3px lightcyan;}
+  50%{ box-shadow: 0px 0px 4px 4px lightcyan;}
+  60%{ box-shadow: 0px 0px 4px 4px lightcyan;}
+  70%{ box-shadow: 0px 0px 5px 5px lightcyan;}
+  80%{ box-shadow: 0px 0px 6px 6px lightcyan;}
+  90%{ box-shadow: 0px 0px 7px 7px lightcyan;}
+  100%{ box-shadow: 0px 0px 7px 7px lightcyan;}
+}
+#videosfoot{
+  text-align: center;
+  margin-top: 1600px;
+  padding-top: 5px;
+  height: 45px;
+  color: antiquewhite;
+  background-color: #222;
+}
     /* GALLARY CSS  */
 #gname{
   margin-left: 620px;
